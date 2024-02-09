@@ -7,11 +7,13 @@ işlemleri gibi bir dizi özelliği içermektedir.
 - Java
 - Java Swing (GUI)
 - MySQL
+
 **Kurulum **
 - Bu projeyi klonlayın.
 - MySQL veritabanında patika_turizm adında bir veritabanı oluşturun.
 - trsm.sql dosyasını kullanarak veritabanı tablolarını oluşturun.
 Veritabanı bağlantısını yapılandırmak için DatabaseConnection.java dosyasını düzenleyin.
+
 **Proje Yapısı**
 src dizini altında Java kaynak kodları bulunmaktadır.
 entity: Veritabanı tablolarını temsil eden model sınıfları
@@ -20,6 +22,7 @@ business: İş mantığını gerçekleştiren servis sınıfları
 views: Kullanıcı arayüzünü oluşturan Swing GUI sınıfları
 core: dizini altında veritabanı oluşturma dosyası, bulunmaktadır.
 Kullanıcı Roller ve Yetkileri
+
 **Admin**
 Acente çalışanı ekleme, silme, güncelleme
 
